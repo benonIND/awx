@@ -27,7 +27,9 @@ print(" 2. ceck website")
 print(" 3. lihat list web")
 print(" 4. web found dir")
 print(" 5. masukan dork")
-print(" 6. exit tool\n"+w)
+print(" 6. exit tool")
+print(" 7. refrest list web")
+print(" 8. refrest web found dir\n"+w)
 inp = int(input(" pilih bos : "))
 if inp == 1:
     f = open("dork.txt", "r").read().split("\n")
@@ -101,3 +103,7 @@ if inp == 5:
     os.system("micro dork.txt")
 if inp == 6:
     raise SystemExit(" jangan lupa balik lagi :V")
+if inp == 7:
+    os.system("rm -f web.txt")
+if inp == 8:
+    os.system("rm -f FOUND.txt")
