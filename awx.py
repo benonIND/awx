@@ -27,7 +27,7 @@ print(" 2. ceck website")
 print(" 3. lihat list web")
 print(" 4. web found dir")
 print(" 5. masukan dork")
-print(" 6. exit tool")
+print(" 6. exit tool\n")
 inp = int(input(" pilih bos : "))
 if inp == 1:
     f = open("dork.txt", "r").read().split("\n")
